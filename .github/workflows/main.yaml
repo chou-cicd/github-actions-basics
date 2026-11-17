@@ -1,0 +1,9 @@
+name: First WorkFlow
+on: push
+
+jobs:
+  first-job:
+    runs-on: ubuntu-lastest
+    steps:
+      -name: Print greeting
+      run: echo "Hello Worls from LabEx"
