@@ -3,7 +3,7 @@ on: push
 
 jobs:
   first-job:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
-      -name: Print greeting
+      - name: Print greeting
       run: echo "Hello Worls from LabEx"
